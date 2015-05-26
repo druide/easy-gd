@@ -1,6 +1,6 @@
 var should = require('should'),
     gd = require('../index.js'),
-    _ = require('underscore'),
+    _ = require('lodash'),
     async = require('async'),
     fs = require('fs'),
     stream = require('readable-stream'),

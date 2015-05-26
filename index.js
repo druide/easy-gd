@@ -1,5 +1,5 @@
 var gd = module.exports = Object.create(require('node-gd')),
-    _ = require('underscore')
+    _ = require('lodash')
 
 _.extend(gd,
     require('./lib/errors.js').classes,

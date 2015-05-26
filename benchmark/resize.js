@@ -1,6 +1,6 @@
 var Benchmark = require('benchmark')
     fs = require('fs'),
-    _ = require('underscore'),
+    _ = require('lodash'),
     async = require('async'),
     h = require('../test/helpers.js'),
 

@@ -1,5 +1,5 @@
 var should = require('should'),
-    _ = require('underscore'),
+    _ = require('lodash'),
     gd = require('../index.js'),
     errors = require('../lib/errors.js')
 

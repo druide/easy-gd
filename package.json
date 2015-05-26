@@ -1,6 +1,6 @@
 {
   "name": "easy-gd",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simplified Node.js wrapper around GD image manipulation library with extra features making your life easier.",
   "main": "index.js",
   "scripts": {
@@ -30,18 +30,18 @@
     "url": "https://github.com/furagu/easy-gd/issues"
   },
   "dependencies": {
-    "node-gd": "~0.2.3",
+    "node-gd": "~0.3.5",
     "buffertools": "~2.1.2",
-    "underscore": "~1.7.0",
-    "exif-parser": "~0.1.7",
+    "lodash": "~3.9.3",
+    "exif-parser": "~0.1.9",
     "vargs-callback": "~0.2.4",
-    "clone": "~1.0.0",
-    "async": "~0.9.0",
-    "readable-stream": "~1.0.0"
+    "clone": "~1.0.2",
+    "async": "~1.0.0",
+    "readable-stream": "~1.0.33"
   },
   "devDependencies": {
-    "should": "~5.0.0",
-    "istanbul": "~0.1.0",
-    "mocha": "~2.1.0"
+    "should": "~6.0.3",
+    "istanbul": "~0.3.14",
+    "mocha": "~2.2.5"
   }
 }
